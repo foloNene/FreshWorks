@@ -7,6 +7,33 @@ import Image3 from "./Images/Image3.png"
 import Image4 from "./Images/Image4.png"
 import Image6 from "./Images/Image6.png"
 import Image8 from "./Images/Image8.png"
+import Icon1 from "./Images/Icon1.png"
+import Icon2 from "./Images/Icon2.png"
+import Icon3 from "./Images/Icon3.png"
+import Icon4 from "./Images/Icon4.png"
+import Icon5 from "./Images/Icon5.png"
+import Icon6 from "./Images/Icon6.png"
+import Icon7 from "./Images/Icon7.png"
+import Icon8 from "./Images/Icon8.png"
+import Icon9 from "./Images/Icon9.png"
+import icon10 from "./Images/icon10.png"
+import Icon11 from "./Images/Icon11.png"
+import Icon12 from "./Images/Icon12.png"
+import Icon13 from "./Images/Icon13.png"
+import Icon14 from "./Images/Icon14.png"
+import icon15 from "./Images/icon15.png"
+import Icon16 from "./Images/Icon16.jpg"
+import Icon17 from "./Images/Icon17.png"
+import icon18 from "./Images/icon18.png"
+import Img1 from "./Images/Img1.JPEG"
+import Img2 from "./Images/Img2.png"
+import Img3 from "./Images/Img3.jpg"
+import Img4 from "./Images/Img4.jpg"
+import Ballon from "./Images/Ballon.png"
+import Fb from "./Images/Fb.png"
+import indeed from "./Images/indeed.png"
+import Twitter from "./Images/Twitter.png"
+import Youtube from "./Images/Youtube.png"
 
 
 
@@ -161,19 +188,252 @@ function App(){
       </div>
       </div>
       
-
-
-      
-    </div>
-   
-
-
-
-
-
-
     </div>
 
+    <div className='Forth'>
+      <div className='ForthTop'>
+        <h3>Trusted by 50k+ Customers Big and Small </h3>
+        <p>
+          We are a leading provider of morden Saas solution that solve mutilple, complex business problem to companies of all sizes. business from more than 120 countries around the world use FreshWorks product to delight their customers and employees everyday
+        </p>
+
+      </div>
+      <br/>
+      <div className='ForthContainer1'>
+        <div className='ForthHolder'>
+        <img src ={Icon1} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon2} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon3} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon4} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon5} className="Icons"/>
+        </div>
+        <div className='ForthHolder'>
+        <img src ={Icon6} className="Icons"/>
+        </div>
+
+      </div>
+
+        <div className='ForthContainer1'>
+        <div className='ForthHolder'>
+        <img src ={Icon7} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon8} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon9} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={icon10} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon11} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon12} className="Icons"/>
+        </div>
+
+        </div>
+
+        <div className='ForthContainer1'>
+        
+        <div className='ForthHolder'>
+        <img src ={Icon13} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon14} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={icon15} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon16} className="Icons"/>
+        </div>
+
+        <div className='ForthHolder'>
+        <img src ={Icon17} className="Icons"/>
+        </div>
+        <div className='ForthHolder'>
+        <img src ={icon18} className="Icons"/>
+        </div>
+
+        </div>
+      </div>
+
+      <div className='Fifth'>
+        <div className='TopPart'>
+        <h2>“  W@terstons  ” </h2> 
+        </div>
+        <div className='FifthHeader'>
+          <p> “The Freshworks team was a great asset during implementation and continue to be a key partner for Waterstons as we look to further mature and improve our services to customers, tailored to their specific needs.”</p>
+        </div>
+        <div className='FifthHeader1'>
+          <p>
+          Alex Bookless, Head of Managed Services, Waterstons
+          </p>
+        </div>
+
+      </div>
+
+      <div className='Sixth'>
+        <div className='SixthTop'>
+          <h2>We aspire to be of the most loved companies in the world</h2>
+        </div>
+        <div className='MainContainer'>
+
+          <div className='HouseContainer'>
+            <div className='ImageContainer'>
+            <img src ={Img1} className="SixthImages"/>
+            </div>
+            <h3>Culture</h3>
+            <p className='sixthPara'>
+            A culture that supports high-quality work, joy and pride in that work, speed to execution, and intense customer focus.
+            </p>
+
+          </div>
+
+          <div className='HouseContainer'>
+            <div className='ImageContainer'>
+            <img src ={Img2} className="SixthImages"/>
+            </div>
+            <h3>Diversity</h3>
+            <p className='sixthPara'>
+            Full-spectrum diversity, equity, and inclusion are key priorities for us.
+            </p>
+          </div>
+
+          <div className='HouseContainer'>
+            <div className='ImageContainer'>
+            <img src ={Img3} className="SixthImages"/>
+            </div>
+            <h3> Experience </h3>
+             <p className='sixthPara'>
+             Focus on enhancing the team experience by strengthening our managers’ leadership capabilities.
+             </p>
+            
+          </div>
+
+          <div className='HouseContainer'>
+            <div className='ImageContainer'>
+            <img src ={Img4} className="SixthImages"/>
+            </div>
+            <h3> Team</h3> 
+            <p className='sixthPara'>
+               4,000 employees and growing in offices across India, US, Europe, and Australia
+                 </p> 
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div >
+          <button className='SixthButtom'>SEE LIFE AT FRESHWORKS</button>
+        </div>
+
+      </div>
+
+      <div className='Seventh'>
+      <div className='SeventhTop'>
+        <h3>Ready to get started?</h3>
+      </div>
+        
+        <div className='SeventhHeader'>
+        <p className='SeventhHeaderPara'>Join our community of 50,000+ companies of all sizes who use Freshworks’ modern <div/> SaaS products to make it fast and easy to delight their customers and employees.</p>
+        </div>
+        <div className='SeventhHeader1'>
+          <button className='SeventhButton'>CONTACT SALES</button>
+        </div>
+        </div>
+
+        <div className='LastPage'>
+          <div  className='FristColumn'>
+          <div><img src={Logo} className="Logo"/> </div>
+          <a href="" className='Link'>FreshDeck</a>
+          <a href="" className='Link'>FreshSales</a>
+          <a href="" className='Link'>FreshMarketer</a>
+          <a href="" className='Link'>FreshService</a>
+          <a href="" className='Link'>FreshTeam</a>
+          </div>
+
+          <div className='SecondColumn'>
+            <h3>Company</h3>
+            <a href="" className='Link'>About</a>
+            <a href="" className='Link'>leadership</a>
+            <a href="" className='Link'>Board of Directors</a>
+            <a href="" className='Link'>Investor</a>
+             <a href="" className='Link'>Customer</a>
+            <a href="" className='Link'>Affiliates</a>
+            <a href="" className='Link'>partners</a>
+            <a href="" className='Link'>Philanthropy</a>
+          </div>
+
+          <div className='ThirdColumn'>
+            Contact US
+            <div><img src={Fb} className="LastLogo"/> </div>
+            <div><img src={indeed} className="LastLogo"/> </div>
+            <div><img src={Twitter} className="LastLogo"/> </div>
+            <div><img src={Youtube} className="LastLogo"/> </div>
+
+          </div>
+          <br/>
+          <footer>
+          <div className="Header">
+        <div className="HeaderWrapper">
+        <div><img src={Logo} className="Logo"/> </div>
+        <div className="Nav">
+
+          <p>Product</p>
+          <p>Platform</p>
+          <p>Company</p>
+          <p>Resources</p>
+          <p>Customers</p>
+          <p>Support</p>
+        </div>
+        </div>
+        </div>
+
+          </footer>
+
+        
+
+
+        </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+ 
     
 
 
