@@ -78,6 +78,7 @@ function App(){
     </div>
 
     <div className="Second">
+      
       <div>
         <img src ={SecondImage} className="SecondImage"/>
       </div>
@@ -292,6 +293,8 @@ function App(){
           Alex Bookless, Head of Managed Services, Waterstons
           </p>
         </div>
+        
+
 
       </div>
 
@@ -354,16 +357,22 @@ function App(){
       </div>
 
       <div className='Seventh'>
+      <div><img src={Ballon} className="Ballon"/> </div>
+      <div><img src={Ballon} className="Ballon2"/> </div>
       <div className='SeventhTop'>
         <h3>Ready to get started?</h3>
       </div>
         
         <div className='SeventhHeader'>
-        <p className='SeventhHeaderPara'>Join our community of 50,000+ companies of all sizes who use Freshworks’ modern <div/> SaaS products to make it fast and easy to delight their customers and employees.</p>
+          
+        <p className='SeventhHeaderPara'>Join our community of 50,000+ companies of all sizes who use Freshworks’ modern  SaaS products to make it fast and easy to <br/>delight their customers and employees.</p>
         </div>
         <div className='SeventhHeader1'>
           <button className='SeventhButton'>CONTACT SALES</button>
         </div>
+        <div><img src={Ballon} className="Ballon1"/> </div>
+        <div><img src={Ballon} className="Ballon4"/> </div>
+       
         </div>
 
         <div className='LastPage'>
@@ -377,7 +386,7 @@ function App(){
           </div>
 
           <div className='SecondColumn'>
-            <h3>Company</h3>
+            <p className='Company'>Company</p>
             <a href="" className='Link'>About</a>
             <a href="" className='Link'>leadership</a>
             <a href="" className='Link'>Board of Directors</a>
@@ -386,45 +395,52 @@ function App(){
             <a href="" className='Link'>Affiliates</a>
             <a href="" className='Link'>partners</a>
             <a href="" className='Link'>Philanthropy</a>
+            <a href="" className='Link'>Board of Directors</a>
+            <a href="" className='Link'>Investor</a>
+             <a href="" className='Link'>Customer</a>
+            <a href="" className='Link'>Affiliates</a>
+            <a href="" className='Link'>partners</a>
+            <a href="" className='Link'>partners</a>
           </div>
 
           <div className='ThirdColumn'>
-            Contact US
-            <div><img src={Fb} className="LastLogo"/> </div>
-            <div><img src={indeed} className="LastLogo"/> </div>
-            <div><img src={Twitter} className="LastLogo"/> </div>
+            <div>
+                 Contact with US
+            </div>
+            <br/>
+            <div className='HouseLastLogo'>
+            <img src={Fb} className="LastLogo"/> 
+            <img src={indeed} className="LastLogo"/> 
+            <img src={Twitter} className="LastLogo"/>
+            </div>
             <div><img src={Youtube} className="LastLogo"/> </div>
 
           </div>
-          <br/>
-          <footer>
-          <div className="Header">
-        <div className="HeaderWrapper">
-        <div><img src={Logo} className="Logo"/> </div>
-        <div className="Nav">
+          
+        </div>
 
-          <p>Product</p>
-          <p>Platform</p>
-          <p>Company</p>
+        <div className="Footer">
+        <div className="FooterContent">
+        <div className="Nav">
+          <p>Term Service</p>
+          <p>Privacy Notice</p>
+          <p>Tokken Policy</p>
           <p>Resources</p>
           <p>Customers</p>
           <p>Support</p>
         </div>
         </div>
+       
+        <div className='FooterButtom'>
+          Copyright&copy; Nene, All right reserved.
         </div>
-
-          </footer>
-
+       
         
-
-
         </div>
 
-
-
-
-
-
+        <div className='Fixed'>
+          <button className='FixedButton'>CONTACT SALES</button>
+        </div>
 
 
 </div>

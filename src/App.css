@@ -78,7 +78,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  
+
 }
 
 .but{
@@ -112,16 +112,9 @@
 
  .but2{
    display: flex;
-   justify-content: space-between; 
+   justify-content: space-between;
    width: 85%;
    height: 70%;
-   
- }
-
- .but2i{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
  }
 
@@ -129,7 +122,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
+ }
+
+ .but2i{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
  }
 
 .button3{
@@ -141,7 +141,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
- 
+
 }
 
 .SecondImage{
@@ -158,7 +158,7 @@
 .Container2{
   display: flex;
   justify-content: space-between;
- 
+
 }
 
 .Container2-Box{
@@ -168,7 +168,7 @@
 .Container3{
   display: flex;
   justify-content: space-between;
- 
+
 }
 
 .Container3-Box{
@@ -178,7 +178,7 @@
 .Container4{
   display: flex;
   justify-content: space-between;
- 
+
 }
 
 .Container4-Box{
@@ -242,8 +242,9 @@
 
 .Forth{
   /* background-color: red; */
-  height: 100vh;
+  height: 90vh;
   width: 100%;
+
 }
 
 .ForthTop{
@@ -253,7 +254,7 @@
 }
 
 .ForthContainer1{
-  width: 100%;
+  width: 90%;
   height: 20%;
   display: flex;
   justify-content: space-around;
@@ -280,11 +281,11 @@
   align-items: center;
   justify-content: space-around;
   background-color: white;
-  
+
 }
 
 .Fifth{
-  background-color: grey;
+  background-color: #F7F7F7;
   height: 80vh;
   width: 100%;
 }
@@ -296,9 +297,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color:#F7F7F7;
   font-size: 30px;
-  color: white;
+  color: black;
 }
 
 .FifthHeader{
@@ -312,7 +313,10 @@
   font-weight: Bold;
 }
 
-  
+
+
+
+
 .Sixth{
   background-color: white;
   height: 100vh;
@@ -343,12 +347,12 @@
  justify-content: space-around; */
  width: 60%;
  height: 70%;
-  
-} 
+
+}
 
 .HouseContainer{
   width: 100%
- 
+
 }
 
 .SixthImages{
@@ -374,8 +378,10 @@
 .Seventh{
 
   background-color:#0B1320;
-  height: 50vh;
+  height: 70vh;
   width: 100%;
+
+  position: relative;
 
 }
 
@@ -391,6 +397,7 @@
   font-size: 35px;
   color: white;
   padding: 15px 32px;
+  /* position: relative; */
 }
 
 
@@ -401,7 +408,7 @@
   font-size: 15px;
   font-weight: bold;
 
-} 
+}
 
 .SeventhHeaderPara{
   font-weight: medium;
@@ -427,37 +434,134 @@
   text-decoration: white;
   display: inline-block;
   font-size: 18px;
+  position: absolute;
+}
+
+.Ballon{
+  width: 100px;
+  position: relative ;
+  left:350px;
+  top: 50px;
+  
+}
+
+.Ballon1{
+  width: 60px;
+  position: relative;
+  /* right: 0%; */
+  bottom: 70px;
+  left:50px;
+}
+
+.Ballon4{
+  width: 60px;
+  position: relative;
+  /* right: 0%; */
+  bottom: 200px;
+  left:150px;
+  
+}
+
+.Ballon2{
+  width: 40px;
+  position: absolute;
+  right: 0px;
+  top:45px;
 }
 
 
 
 .LastPage{
-  height: 100vh;
-  width: 100%;
+  height: 80vh;
+  width: 45%;
   display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
 }
 
 .FristColumn{
   display: flex;
   flex-direction:column ;
+  padding-top: 5%;
+
 }
 
 .SecondColumn{
   display: flex;
   flex-direction: column;
+  padding-top: 1%;
+
+}
+
+.Company{
+  font-size: medium;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .ThirdColumn{
+  /* display: flex; */
+  padding: 4%;
+
+}
+
+.HouseLastLogo{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: ;
+  */
+  justify-content: flex-end;
 }
 
 .LastLogo {
-  width: 60px;
+  width: 40px;
 }
 
 .Link{
   color: black;
   text-decoration: none;
 }
+
+.Footer{
+  height: 10vh;
+  width: 100%;
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.FooterContent{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.FooterButtom{
+  padding-top: 20px;
+
+}
+
+
+.Fixed{
+  display: flex;
+  flex-direction: row-reverse;
+  position: sticky;
+  bottom: 50px;
+  right: 10px;
+}
+
+.FixedButton{
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: white;
+  display: inline-block;
+  font-size: 10px;
+  position: absolute;
+  
+
+}
+
 
